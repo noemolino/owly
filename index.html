@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owly</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Noto+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/img/logo_owly.png" alt="Logo Owly" />
+      <h1 class="title">Owly</h1>
+    </header>
+
+    <main class="content">
+      <p>Inserisci un genere letterario e scopri tutti i libri consigliati.</p>
+      <input
+        id="categoryInput"
+        type="text"
+        placeholder="Inserisci un genere"
+      />
+      <button id="searchButton">Cerca</button>
+      <ul id="booksList"></ul>
+      <div id="bookDescription"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="social-icons">
+        <a
+          href="https://www.linkedin.com/in/noemi-molino-8807191b5/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <img src="assets/img/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a
+          href="https://github.com/noemolino"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <img src="assets/img/github.png" alt="GitHub" />
+        </a>
+      </div>
+      <div class="copyright">© Noemi Molino - 2025</div>
+    </footer>
+
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
